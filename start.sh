@@ -1,7 +1,6 @@
+export SECRET_KEY=os.environ.get
+export SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://dunco:dunco@localhost/talent
+export MAIL_USERNAME=showcasetalanta@gmail.com
+export MAIL_PASSWORD=Talant254
 
-export SECRET_KEY=bxxfcxa43xf7xd9xc6xefxf8c
-export MAIL_USERNAME=talanta@gmail.com
-export MAIL_PASSWORD=talanta123
-
-
-python manage.py server
+python3.6 manage.py server
